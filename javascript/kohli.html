@@ -1,0 +1,413 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="virat.js"></script>
+</head>
+
+<body>
+<!---------------------------------------inner html------------------------------------------------>
+
+<!--...To access an html element,javascript can use the "document.getelementByid"method....-->
+
+
+
+
+<h1 id="nanna">siva</h1>
+
+<script>
+
+document.getElementById("nanna").innerHTML="lokeshbabu";
+
+
+</script>
+
+<!-----------------------------------------document.write--------------------------------------->
+
+<!--The document.write() method should only be used testing purpose.-->
+<button type="button" onClick="document.write('kukka')">clickme</button>
+
+
+<!--you can use an alert box to display data....-->
+
+<script>
+window.alert("iam a bad boy");
+
+</script>
+<!-----------------------------------------console.log------------------------------------------->
+
+<!--you can call the console.log method inthe browser to display data....-->
+
+<script>
+
+console.log("la laa laaa");
+</script>
+
+
+<!-----------------------------------------window.print()------------------------------------------>
+
+<button onClick="window.print()">print</button>
+
+<!--java script statements-->
+<!-- 1. In a programming language,these programming instructions are called statements...
+
+     2.A javascript program is a list of programming statements....-->
+     
+     
+<!--Ex:1
+
+var x,y,z;//statement1
+x=5;//statement2
+y=6;//statement3
+z=x+y;//statement4-->
+
+<strong id="siva"></strong>
+<script>
+document.getElementById("siva").innerHTML="hi lovely h r u";
+</script>
+
+<!------------------------------------------semicolons------------------------------------------>
+
+<!--semicolons seperate javascript statements add a semicolon at the  end of each executable statement...-->
+
+<!--EX:
+
+var x,y,z - declare 3 variables
+
+x=5; - assign the value5
+y=6; - assign the value6 
+z=x+y; - assign the sum of x and y toz.
+-->
+
+<!-------------------------------------------javascript values----------------------------------------------->
+
+<!--java script values have two values.
+
+1.fixed values 2.variable values.
+Ex1:-->
+<script>
+document.getElementById("siva").innerHTML=20.50;
+</script>
+
+<!--Ex2:-->
+<script>
+var r;
+r="yash";
+document.getElementById("siva").innerHTML=r;
+
+</script>
+
+<!--------------------------------------javascript varaibles--------------------------------->
+
+<!--javascript variables are container for storing data values.
+in this example a,b,c, are variables,declared with the 'var' keyword.-->
+
+<!--EX1:-->
+
+<h1 id="kumar"></h1>
+
+<script>
+var a=50;
+
+var b=50;
+
+var c=a+b;
+document.getElementById("kumar").innerHTML=a+b+c;
+</script>
+
+<!--EX2:
+-->
+
+<h1 id="kumar"></h1>
+<script>
+var mohit=500;
+
+var rohit=800;
+
+var totalmarks=mohit+rohit;
+ 
+document.getElementById("kumar").innerHTML=" The total marks is:" + totalmarks; 
+
+</script>
+
+
+<!--EX3:-->
+
+<h1 id="kumar"></h1>
+
+<script>
+
+var money=300+500;
+var name="sharma";
+var work=" shopping";
+document.getElementById("kumar").innerHTML=money+"<br>"+name+ "<br>" +work;
+</script>
+
+<!--EX4:-->
+<h1 id="kumar"></h1>
+
+<script>
+var woner="saisiva", car="bench", price=5000000;
+document.getElementById("kumar").innerHTML=woner+"<br>" +car+"<br>"+price;
+
+</script>
+
+<h1 id="bharat"></h1>
+<script>
+<!--Ex5:-->
+var $=100;
+var $siva=150;
+document.getElementById("bharat").innerHTML=$+$siva;
+
+</script>
+<!--EX6:-->
+<h1 id="ratnam"></h1>
+<script>
+var _siva=280;
+var ks620=399;
+document.getElementById("ratnam").innerHTML=_siva+ks620;
+
+</script>
+
+<!-----------------------------------------------Js operators-------------------------------------->
+
+<!--Js operators have 3 types.
+
+1.Arithmetic operators.
+2.Assignment operators.
+3.Comparision operators.
+-->
+<!--EX1-->
+<h1 id="nar"></h1>
+<script>
+var x=70;
+
+var Y=50;
+
+var z=80;
+
+document.getElementById("nar").innerHTML=Y%z;
+
+</script>
+
+<!--------------------------------------------1.Js Arithmetic operators------------------------------------->
+
+<!--operator meaning
+
++ Addition
+- Substraction
+* multiplication
+**Exponentiation
+/ Division
+% Modulus(Division Remainder)
+++ Increment
+-- Decrement
+
+Ex1-->
+
+<h1 id="laka"></h1>
+
+<script>
+var b=70;
+
+var z=9;
+
+var m=b%z;
+
+document.getElementById("laka").innerHTML=m;
+
+</script>
+Ex2
+<h1 id="sri"></h1>
+<script>
+var a=60;
+
+a--;
+
+var b=a;
+document.getElementById("sri").innerHTML=b;
+
+</script>
+
+
+<h1 id="loyolo"></h1>
+<script>
+var r=20;
+var z=r**50;
+document.getElementById("loyolo").innerHTML=z;
+</script>
+
+
+<!-------------------------------------------2.Js Assignment operators-------------------------------------->
+
+<!--Operator  Example  Equal to
+
+  =         a=b      a=b
+  +=        a+=b     a=a+b
+  -=        a=-b     a=a*b
+  %=        a%=b     a=a%b
+  *=        a*=b     a=a**b-->
+  
+<!--Ex:-->
+
+<h1 id="stone"></h1>
+<script>
+var a=200;
+a+=20;
+document.getElementById("stone").innerHTML=a;
+
+</script>
+
+<!-----------------------------------------------3.Js Comparision Operators----------------------------->
+<!--operator Description
+  ==   Equal to
+  ===  Equal value and Equal Type
+  !=   Not Equal
+  !==  Not Equal Value Or Not Equal Type
+  >    Greater Than
+  <    Less Than
+  >=   Greater Than or Equal To
+  <=   less Than or Equal To
+  ?=   Ternary Operator-->
+  
+<!--Ex:-->
+
+<h1 id="gold"></h1>
+
+<script>
+
+var a=50;
+var b=50;
+var z=a==b;
+document.getElementById("gold").innerHTML=z;
+</script>
+
+<!-----------------------------------------Js-Data-Types----------------------------------->
+  <!--Javascript variables can hold many datatypes numbers,strings,objects and more.-->
+  
+<!--var number=56;     (number)
+var person="sai";  (sring)
+var a={ name:"sai",nickname:"siva";roll no:7;}-->
+
+<!--Ex:1-->
+<!--number and a string: javascript will treat the number as a string.-->
+<h1 id="cola"></h1>
+<script>
+var a=65+"sai";
+document.getElementById("cola").innerHTML=a;
+
+</script>
+
+Ex:2
+left to right: Different Sequences can produce different results
+
+<h1 id="axar"></h1>
+<script>
+var a="sai"+70+5;
+document.getElementById("axar").innerHTML=a;
+</script>
+<!--Ex:3-->
+<!--Javascript dynamic types:
+Same variable Can be used to hold different data.-->
+ <h1 id="bhai"></h1>
+<script>
+<!--var A;-->
+<!--A=55;-->
+A="raj";
+document.getElementById("bhai").innerHTML=A; 
+</script>
+
+<!--Ex:4-->
+<!--You can use quotes inside a string,aslong as they don't match the quotes surrounding the string.-->
+<h1 id="dinesh"></h1>
+<script>
+var sai=" he is a good boy";
+var siva="he is 'bad' boy";
+var kumar='he is "Play" boy';
+document.getElementById("dinesh").innerHTML=details.name,details.surname,details.age,details.likecolor;
+</script>
+
+<!--Ex:5-->
+<!--Booleans
+Booleans can have two values true or false.-->
+<h1 id="akhil"></h1>
+<script>
+var m=40;
+var a=15;
+var h=40;
+document.getElementById("akhil").innerHTML=(m==h)+"<br>"+(m==a)+"<br>"+(a==h);
+</script>
+
+<!--Ex:6-->
+<!--objects
+javascript objects are written with curly braces{}.
+object properties are written as name: value pairs,seperated by commas.-->
+<p id="rahul"></p>
+<script>
+var details= {name:"sai", surname:"kotichukkala", age:25, likecolor:"blue"};
+document.getElementById("rahul").innerHTML= details.likecolor;
+</script>
+
+Type of operator:
+The type of operator returns the type of a variable or an expression.
+<h1 id="dikv"></h1>
+<script>
+var mohith=30;
+var siva="rakesh";
+var details={ name :sai;} 
+document.getElementById("dikv").innerHTML=typeof mohith+" "+typeof siva+" "+typeof details;
+</script>
+
+<!------------------------------------------------Js-Function------------------------------------------->
+
+<!--A javascript function is defined with the function keyword followed by a name followed by paranthese().-->
+<!--Function names can contain letters ,digits, underscores,and dollar signs (same rules as variables)
+-->
+<!--syntax:
+function raj (parameter1,parameter2,parameter3){// code to be executed}
+
+Function-Return-->
+
+<!--Ex1:-->
+
+<h1 id="dk"></h1>
+<script>
+function functionname(b,r){
+	return b+r;
+}
+document.getElementById("dk").innerHTML=functionname(20,30);
+</script>
+
+Ex2:
+
+<h1 id="lohit"></h1>
+
+<script>
+var sai=kumar(60,3);
+
+function kumar(a,b){
+	return a+b;
+}
+document.getElementById("lohit").innerHTML=sai;
+</script>
+Ex3:
+function inside variable:
+
+<h1 id="mahi"></h1>
+
+<h1 id="mahi2"></h1>
+<script>
+sai_siva();
+function sai_siva(){
+	var x="kumar";
+	var y=500;
+document.getElementById("mahi").innerHTML=typeof x+""+x;
+document.getElementById("mahi2").innerHTML=typeof y+""+y;
+}
+</script>
+
+<!--Js-this-keyword:
+-->
+</body>
+</html>
